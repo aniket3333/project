@@ -1,0 +1,237 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#menu{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: #5E3DEE;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* div{
+    border: 1px solid grey;
+    padding:5px;
+} */
+
+.menu-item{
+    color: #ffffffcc;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.menu-item:hover{
+    color:white
+}
+
+.rounded-button{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.container{
+    background-color: #5E3DEE;
+}
+#logo{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    margin-right: auto;
+    padding: 3px 0px;
+}
+#home{
+    display: flex;
+    background-color: #5E3DEE;
+    margin: auto;
+    padding: 40px;
+    max-width: 1200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.title-graphic img{
+    max-width: 600px;
+    border-radius: 10px;
+}
+    
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+title  h1{
+    font-size: 3.5rem;
+
+}
+
+title p{
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+.signup-button
+{
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    padding: 10px 35px;
+    margin: 0 10px;
+    background-color: white;
+    color: #5E3DEE;
+}
+.signup-button:hover
+{
+   color:white;
+   background-color: #5E3DEE;
+}
+.marketing, .cards{
+max-width: 1000px;
+margin: auto;
+
+}
+
+.marketing h2,.price-title h2{
+    
+font-size: 2rem;
+text-align: center;
+max-width: 600px;
+margin: auto;
+margin-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.marketing-card img{
+max-width: 70%;  
+margin-bottom: 20px;
+}
+.marketing-card div{
+text-align: center;
+line-height: 1.2rem;
+}
+
+.title-text{
+font-size: 1.4rem;
+font-weight: bold;
+margin:10px ;
+}
+
+.soft{
+    color: #666666;
+}
+
+/*pricing css*/
+#pricing,#testimonial{
+max-width: 1000px;
+margin: 100px auto;
+}
+
+.price-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.price-card
+{
+max-width: 30%;
+padding: 40px;
+border: 1px solid #ccc;
+border-radius: 10px;
+}
+
+.price-info{
+    text-align: center;
+}
+
+.plan{
+    color: #5E3DEE;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+
+}
+.price{
+    color: #666;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 10px;
+
+}
+.trial{
+    color: #777;
+    
+    font-size: 1rem;
+    margin-bottom: 10px;
+
+}
+
+.features{
+    line-height: 2rem;
+    padding-left: 10px;
+    color: 666;
+
+}
+
+.action{
+    text-align: center;
+}
+.action button{
+    border: 2px solid #5E3DEE;
+    background-color: #5E3DEE;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 30px;
+
+}
+.action button:hover{
+    background-color: white;
+    color: #5E3DEE;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+
+/*testimonial css*/
+#testimonial{
+    display: flex;
+    padding: 60px;
+}
+.profile-image img{
+border-radius: 50%;
+max-width: 150px;
+}
+.feedback
+{
+    margin-left: 20px;
+}
+.feedback p 
+{
+color: #666;
+font-style: italic;
+
+line-height: 1.5rem;
+
+
+}
+.feedback p.name
+{
+color: #000;
+font-style: normal;
+font-weight: bold;
+
+
+
+
+}
